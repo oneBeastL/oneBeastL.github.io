@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Bолк Blog</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2016-04-10T06:54:18.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Bолк</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo3.0+Github Pages配置独立的个人博客</title>
+    <link href="http://yoursite.com/2016/04/09/hexo3-0-Github-Pages%E9%85%8D%E7%BD%AE%E7%8B%AC%E7%AB%8B%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://yoursite.com/2016/04/09/hexo3-0-Github-Pages配置独立的个人博客/</id>
+    <published>2016-04-09T06:58:19.000Z</published>
+    <updated>2016-04-10T06:54:18.000Z</updated>
+    
+    <content type="html">&lt;hr&gt;
+&lt;h2 id=&quot;Github-Pages创建自己的独立博客&quot;&gt;&lt;a href=&quot;#Github-Pages创建自己的独立博客&quot; class=&quot;headerlink&quot; title=&quot;Github Pages创建自己的独立博客&quot;&gt;&lt;/a&gt;Github Pages创建自己的独立博客&lt;/h2&gt;&lt;p&gt;作为开源代码库以及版本控制系统, Github拥有140多万开发者用户. 随着越来越多的应用程序转移到了云上, Github已经成为了管理软件开发以及发现已有代码的首选方法. Github作为现在最流行的代码仓库，已经得到很多大公司和项目的青睐，比如jQuery、Twitter等.&lt;br&gt;    为了使项目更方便的被人理解, Github替你想到了这一点, 他提供了&lt;a href=&quot;https://pages.github.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Github Pages&lt;/a&gt;的服务, 不仅可以方便的为项目建立简介站点, 同时也可以建立个人博客.&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;strong&gt;Github Pages有以下几个优点:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;轻量级的博客系统, 没有配置的麻烦&lt;/li&gt;
+&lt;li&gt;可以使用标记语言, 如&lt;a href=&quot;http://sspai.com/25137&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;无需自己搭建服务器&lt;/li&gt;
+&lt;li&gt;根据Github的限制, 对应每个账号下的站有300M的空间&lt;/li&gt;
+&lt;li&gt;可以绑定自己的域名&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;当然他也有缺点:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;使用&lt;a href=&quot;http://baike.baidu.com/link?url=FZ4lpAQCDRGwkFdZsxaFdC2EFM5ppwTecv1LuEbdjk-FZbYBCFm_8gGMxz8V4VRmjS6VnfCjdkgRoFHjzEtvMa&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;jekyll&lt;/a&gt;模板系统, 静态页发布, 适合博客, 文档介绍等&lt;/li&gt;
+&lt;li&gt;动态程序部分比较局限, 比如没有评论, 我们可以使用其他方法进行设置&lt;/li&gt;
+&lt;li&gt;基于Git, 需要动手能力强, 不像Wordpress有强大的后台&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;作为个人博客来说, 清爽的界面搭配, 简单的操作, 就能够表达自己的工作、学习心得, Github Pages是一个很好的方案.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;Github帐号配置&quot;&gt;&lt;a href=&quot;#Github帐号配置&quot; class=&quot;headerlink&quot; title=&quot;Github帐号配置&quot;&gt;&lt;/a&gt;Github帐号配置&lt;/h2&gt;&lt;h3 id=&quot;注册帐号&quot;&gt;&lt;a href=&quot;#注册帐号&quot; class=&quot;headerlink&quot; title=&quot;注册帐号&quot;&gt;&lt;/a&gt;注册帐号&lt;/h3&gt;&lt;p&gt;首先， 我们需要在&lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Github&lt;/a&gt;上面创建一个账号。如果你还没有github账号，那么可以在首页进行快速注册&lt;img src=&quot;http://7xsrl8.com2.z0.glb.clouddn.com/1.jpeg&quot; alt=&quot;&quot;&gt;&lt;br&gt;填写完成确定信息没有重复的情况下，点击下面的&lt;code&gt;Sign up for Github&lt;/code&gt;按钮，然后跳转到新界面。新界面用来选择是否进行付费购买github的仓库加密服务，如果你希望托管在github上面的项目不是开源的，那么选择付费很有必要。&lt;/p&gt;
+&lt;p&gt;如果没有看懂, 可以点击&lt;a href=&quot;http://jingyan.baidu.com/article/455a9950abe0ada167277864.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;教程&lt;/a&gt;进行注册&lt;/p&gt;
+&lt;p&gt;注册好帐号之后, 我们点击下图中的按钮&lt;strong&gt;创建博客仓库&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xsrl8.com2.z0.glb.clouddn.com/1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;我们点击上图的+号创建新项目，项目名称必须为: github名字.github.io，比如本文中的github名称为&lt;code&gt;oneBeastL&lt;/code&gt;，那么新仓库的名字必须为: &lt;code&gt;oneBeastL.github.io&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xsrl8.com2.z0.glb.clouddn.com/2.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;设置完之后, 我们点击创建(上图黑色剪头所指).我们完成了博客仓库的创建, 接下来要进行配置啦&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;对博客仓库进行设置&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xsrl8.com2.z0.glb.clouddn.com/3.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;点击上图红框圈住的按钮&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xsrl8.com2.z0.glb.clouddn.com/4.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xsrl8.com2.z0.glb.clouddn.com/5.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xsrl8.com2.z0.glb.clouddn.com/6.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;此时, 我们已经完成的博客仓库的基本配置, 我们可以在浏览器上访问: &lt;code&gt;github名字.github.io&lt;/code&gt;, 看看自己的个人博客雏形, 可能会根据所选主题不同, 而略有差异…&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xsrl8.com2.z0.glb.clouddn.com/7.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;Hexo环境搭建&quot;&gt;&lt;a href=&quot;#Hexo环境搭建&quot; class=&quot;headerlink&quot; title=&quot;Hexo环境搭建&quot;&gt;&lt;/a&gt;Hexo环境搭建&lt;/h2&gt;&lt;p&gt;根据电脑操作系统(mac、windows)下载对应版本: &lt;/p&gt;
+&lt;h3 id=&quot;1-Node-js&quot;&gt;&lt;a href=&quot;#1-Node-js&quot; class=&quot;headerlink&quot; title=&quot;1. Node.js&quot;&gt;&lt;/a&gt;1. Node.js&lt;/h3&gt;&lt;p&gt;用来生成静态页面. 移步Node.js官网, 下载&lt;code&gt;最新版Stable&lt;/code&gt;安装即可.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;下载 &lt;a href=&quot;https://nodejs.org/en/download/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Node.js&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;2-Git&quot;&gt;&lt;a href=&quot;#2-Git&quot; class=&quot;headerlink&quot; title=&quot;2. Git&quot;&gt;&lt;/a&gt;2. Git&lt;/h3&gt;&lt;p&gt;用来将本地Hexo内容提交到Github上。Xcode自带Git，这里不再赘述。如果没有Xcode可以参考Hexo官网上的安装方法。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;下载 &lt;a href=&quot;https://git-scm.com/downloads&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Git&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;Hexo&quot;&gt;&lt;a href=&quot;#Hexo&quot; class=&quot;headerlink&quot; title=&quot;Hexo&quot;&gt;&lt;/a&gt;Hexo&lt;/h2&gt;&lt;p&gt;安装好Git和Node.js之后, 在终端下输入下面这条命令来安装Hexo: &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;npm install hexo-cli -g&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;稍微等待一会就会出现安装信息&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm WARN optional dep failed, continuing fsevents@1.0.6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;C:\Users\Administrator\AppData\Roaming\npm\hexo -&amp;gt; C:\Users\Administrator\AppData\Roaming\npm\node_modules\hexo-cli\bin\hexo&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo-cli@0.1.9 C:\Users\Administrator\AppData\Roaming\npm\node_modules\hexo-cli&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├── abbrev@1.0.7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├── minimist@1.2.0&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├── bluebird@3.0.6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├── tildify@1.1.2 (os-homedir@1.0.1)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├── chalk@1.1.1 (supports-color@2.0.0, ansi-styles@2.1.0, escape-string-regexp@1.0.3, strip-ansi@3.0.0, has-ansi@2.0.0)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;└── hexo-fs@0.1.5 (escape-string-regexp@1.0.3, graceful-fs@4.1.2, chokidar@1.4.1)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;我们来测试一下, 是否安装成功, 输入下面的命令:&lt;br&gt;&lt;code&gt;hexo -v&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;如果出现类似内容说明安装成功啦!&lt;br&gt;&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;hexo-cli: &lt;span class=&quot;number&quot;&gt;1.0&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.1&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;os: Darwin &lt;span class=&quot;number&quot;&gt;15.0&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.0&lt;/span&gt; darwin x64&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;http_parser: &lt;span class=&quot;number&quot;&gt;2.5&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.2&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;node: &lt;span class=&quot;number&quot;&gt;4.4&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.2&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;v8: &lt;span class=&quot;number&quot;&gt;4.5&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.103&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.35&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;uv: &lt;span class=&quot;number&quot;&gt;1.8&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.0&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;zlib: &lt;span class=&quot;number&quot;&gt;1.2&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.8&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ares: &lt;span class=&quot;number&quot;&gt;1.10&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.1&lt;/span&gt;-DEV&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;icu: &lt;span class=&quot;number&quot;&gt;56.1&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;modules: &lt;span class=&quot;number&quot;&gt;46&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;openssl: &lt;span class=&quot;number&quot;&gt;1.0&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.2&lt;/span&gt;g&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Hexo的使用&quot;&gt;&lt;a href=&quot;#Hexo的使用&quot; class=&quot;headerlink&quot; title=&quot;Hexo的使用&quot;&gt;&lt;/a&gt;Hexo的使用&lt;/h3&gt;&lt;p&gt;很好! 现在我们开始创建博客写文章, 下面会介绍几个hexo常用的指令.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;新建博客文件夹&lt;/strong&gt;&lt;br&gt;我们在桌面创建个名字为&lt;code&gt;blog&lt;/code&gt;的文件夹(按照自己的喜好该文件夹可以放在任意位置, 当然名字也是可以随意的). 现在我们用终端进入到这个文件夹里, 然后将它初始化为我们的博客目录:&lt;br&gt;&lt;code&gt;hexo init&lt;/code&gt;&lt;br&gt;初始化成功的提示信息如下:&lt;br&gt;&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;INFO  Copying data to E:/Users/dllo/Desktop/blog&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;INFO  You are almost done! Don&lt;span class=&quot;string&quot;&gt;&#39;t forget to run &#39;&lt;/span&gt;npm install&lt;span class=&quot;string&quot;&gt;&#39; before you start blogging with Hexo!&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;注意看第二条的提示, 提示我们要执行&lt;code&gt;npm install&lt;/code&gt;, 那么我们就执行这条指令&lt;br&gt;&lt;code&gt;npm install&lt;/code&gt;&lt;br&gt;这条命令是用来安装依赖包的, 具体安装内容可以在&lt;code&gt;package.json&lt;/code&gt;文件中看到. 安装之后会有一长串的信息, 这里就不展示了, 现在我们可以看到blog目录下的文件结构是这样的:&lt;br&gt;&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;├── _config.yml&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├── node_modules&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├── package.json&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├── scaffolds&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├── source&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;|   └── _posts&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;└── themes&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;写一篇文章吧&lt;/strong&gt;&lt;br&gt;终于, 我们现在可以写新的文章啦, 执行下面这条命令来创建一篇新文章&lt;code&gt;Hello&lt;/code&gt;:&lt;/p&gt;
+&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;hexo new &lt;span class=&quot;string&quot;&gt;&quot;Hello&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;然后会提示我们新建的文章所在路径: &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;INFO  Created: ~/Desktop/blog/source/_posts/Hello.md&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;我们根据所给的路径找到这个文件之后, 用Markdown编辑器或文本编辑器打开, 我们会看到里面已经有内容了: &lt;/p&gt;
+&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;---&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;title: Hello&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;date: &lt;span class=&quot;number&quot;&gt;2016&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;-04&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;-09&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;19&lt;/span&gt;:&lt;span class=&quot;number&quot;&gt;41&lt;/span&gt;:&lt;span class=&quot;number&quot;&gt;32&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;tags:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;---&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;这是由模板生成的Front-Matter，在—前面的是文章的一些基本信息例如标题、日期及标签，还能添加其他一些选项如分类，我们后面有机会再来说说。&lt;/p&gt;
+&lt;p&gt;我们的文章内容要在—下面, 随意写点什么来看看效果&lt;/p&gt;
+&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;这是我的个人博客, 第一篇文章&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;保存之后就可以进入下面的操作啦&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;生成页面&lt;/strong&gt;&lt;br&gt;写好文章之后怎么才能看到效果呢? 只需要下面的一条命令就能将我们Markdown文件(&lt;code&gt;.md&lt;/code&gt;后缀)转换成&lt;code&gt;.html&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;hexo generate&lt;/code&gt;   或者   &lt;code&gt;hexo g&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;然后我们会看到一串类似下面的信息&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xsrl8.com2.z0.glb.clouddn.com/9.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;这样博客就已经生成完毕啦~&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;页面预览&lt;/strong&gt;&lt;br&gt;我们需要在本地生成一个小型服务器, 把博客挂载上去, 才能访问. 只需要下面一条指令:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;hexo server&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;我们会看到这样一条提示:&lt;/p&gt;
+&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;INFO  Start processing&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;INFO  Hexo &lt;span class=&quot;keyword&quot;&gt;is&lt;/span&gt; running at http://localhost:&lt;span class=&quot;number&quot;&gt;4000&lt;/span&gt;/. Press Ctrl+C to stop.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;打开浏览器访问&lt;a href=&quot;http://localhost:4000/.&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://localhost:4000/.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;如果欣赏完毕, 我们按照提示&lt;code&gt;Ctrl+C&lt;/code&gt;退出小型服务器&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;配置信息&lt;/strong&gt;&lt;br&gt;我们找到博客根目录下的配置文件&lt;code&gt;_config.yml&lt;/code&gt;, 用文本编译器或者是Markdown编辑器打开它, 进行修改配置, 达到我们想要的样子. 可以查看&lt;a href=&quot;https://hexo.io/zh-cn/docs/configuration.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo官方文档&lt;/a&gt;对照修改&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;更换主题&lt;/strong&gt;&lt;br&gt;Hexo官方网站上展示了多套主题, 可以按照自己的喜好选择, 这里给出博主自己用的Next主题, 喜欢的可以按照&lt;a href=&quot;http://theme-next.iissnan.com/getting-started.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Next文档&lt;/a&gt;进行安装和配置等&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;域名配置&quot;&gt;&lt;a href=&quot;#域名配置&quot; class=&quot;headerlink&quot; title=&quot;域名配置&quot;&gt;&lt;/a&gt;域名配置&lt;/h2&gt;&lt;h3 id=&quot;域名购买&quot;&gt;&lt;a href=&quot;#域名购买&quot; class=&quot;headerlink&quot; title=&quot;域名购买&quot;&gt;&lt;/a&gt;域名购买&lt;/h3&gt;&lt;p&gt;博客已经搭建好了, 但是访问的地址总是让人感觉很不舒服, 如果我们想要指定的访问地址怎么办呢? 我们需要一个自己的域名, 本文域名购买是在&lt;a href=&quot;https://sg.godaddy.com/zh/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;“狗爹”&lt;/a&gt;, 当然这个是因人所好, &lt;a href=&quot;http://www.szhot.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;中国万维网&lt;/a&gt;也不错.&lt;/p&gt;
+&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;110&quot; src=&quot;http://music.163.com/outchain/player?type=0&amp;id=320477920&amp;auto=1&amp;height=90&quot;&gt;&lt;/iframe&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;h2 id=&quot;Github-Pages创建自己的独立博客&quot;&gt;&lt;a href=&quot;#Github-Pages创建自己的独立博客&quot; class=&quot;headerlink&quot; title=&quot;Github Pages创建自己的独立博客&quot;&gt;&lt;/a&gt;Github Pages创建自己的独立博客&lt;/h2&gt;&lt;p&gt;作为开源代码库以及版本控制系统, Github拥有140多万开发者用户. 随着越来越多的应用程序转移到了云上, Github已经成为了管理软件开发以及发现已有代码的首选方法. Github作为现在最流行的代码仓库，已经得到很多大公司和项目的青睐，比如jQuery、Twitter等.&lt;br&gt;    为了使项目更方便的被人理解, Github替你想到了这一点, 他提供了&lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt;的服务, 不仅可以方便的为项目建立简介站点, 同时也可以建立个人博客.&lt;br&gt;
+    
+    </summary>
+    
+      <category term="杂篇" scheme="http://yoursite.com/categories/%E6%9D%82%E7%AF%87/"/>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+      <category term="Github" scheme="http://yoursite.com/tags/Github/"/>
+    
+  </entry>
+  
+</feed>
